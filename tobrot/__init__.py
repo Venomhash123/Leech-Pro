@@ -63,9 +63,9 @@ AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "539295917").spli
 # the download location, where the HTTP Server runs
 DOWNLOAD_LOCATION = "./DOWNLOADS"
 # Telegram maximum file upload size
-MAX_FILE_SIZE = 50000000
+MAX_FILE_SIZE = 500000000
 TG_MAX_FILE_SIZE = 2097152000
-FREE_USER_MAX_FILE_SIZE = 50000000
+FREE_USER_MAX_FILE_SIZE = 500000000
 AUTH_CHANNEL.append(539295917)
 AUTH_CHANNEL.append(OWNER_ID)
 # chunk size that should be used with requests
@@ -97,7 +97,7 @@ GLEECH_ZIP_COMMAND = os.environ.get("GLEECH_ZIP_COMMAND", "gleechzip")
 YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
 GYTDL_COMMAND = os.environ.get("GYTDL_COMMAND", "gytdl")
 RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
-DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Maxx-TD")
+DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "")
 INDEX_LINK = os.environ.get("INDEX_LINK", "")
 TELEGRAM_LEECH_COMMAND = os.environ.get("TELEGRAM_LEECH_COMMAND", "tleech")
 TELEGRAM_LEECH_UNZIP_COMMAND = os.environ.get("TELEGRAM_LEECH_UNZIP_COMMAND", "tleechunzip")
